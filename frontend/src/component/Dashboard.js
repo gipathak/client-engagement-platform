@@ -9,6 +9,7 @@ function filterCards(e)
   console.log(val);
 }
 
+
 const Dashboard = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Dashboard = () => {
           <img src={Ps_logo} alt="Logo1" className="home-logo" />
           <img src={Ps_full_logo} alt="Logo1" className="home-full-logo" />
         </div>
-        <button className="login-btn">Login</button>
+        <button className="login-btn" >Login</button>
       </div>
       <div className="header">
         <div className="heading-text">Clients Onboard</div>
@@ -38,6 +39,27 @@ const Dashboard = () => {
           type="Front-end"
           date="14/02/2000"
         />
+            <Card
+          image={Ps_full_logo}
+          name="Harsh"
+          description="Coder"
+          type="Front-end"
+          date="14/02/2000"
+        />
+            <Card
+          image={Ps_full_logo}
+          name="Harsh"
+          description="Coder"
+          type="Front-end"
+          date="14/02/2000"
+        />
+            <Card
+          image={Ps_full_logo}
+          name="Harsh"
+          description="Coder"
+          type="Front-end"
+          date="14/02/2000"
+        />
         <Card
           image={Ps_full_logo}
           name="Harsh"
@@ -45,6 +67,7 @@ const Dashboard = () => {
           type="Front-end"
           date="14/02/2000"
         />
+        
        
       </div>
     </>
